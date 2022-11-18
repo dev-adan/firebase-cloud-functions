@@ -1,0 +1,11 @@
+GET http://127.0.0.1:5001/fir-cloud-functions-b2e53/us-central1/api
+
+####
+
+POST http://127.0.0.1:5001/fir-cloud-functions-b2e53/us-central1/api
+Content-Type: application/json
+
+    {
+        "name" : "Adan Ali",
+        "Project" : "Learning Cloud Functions"
+    }
